@@ -360,19 +360,19 @@ public class VentanaCargaSolucion extends javax.swing.JFrame implements Observer
                     if (lineaCorrecta) {
                         incorrectas++;
                         if (agregar) {
-                            model.addElement("-Línea " + lineas + " Error de formato");
+                            model.addElement("-Linea " + lineas + " Error de formato");
                         };
                     } else {
                         incorrectas++;
                         if (agregar) {
-                            model.addElement("*Línea " + lineas + " Error de datos");
+                            model.addElement("*Linea " + lineas + " Error de datos");
                         };
                     }
                 }
             }
             while (archivoEquipo.hayMasLineas() || archivoCorreccion.hayMasLineas()) {
                 if (lineas <= 20) {
-                    model.addElement("*Línea " + lineas + " Error de datos");
+                    model.addElement("*Linea " + lineas + " Error de datos");
                 }
                 incorrectas++;
                 lineas++;
