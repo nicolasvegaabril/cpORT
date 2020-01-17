@@ -347,7 +347,7 @@ public class VentanaCargaSolucion extends javax.swing.JFrame implements Observer
                 }
                 if (archivoEquipo.linea().equals(archivoCorreccion.linea())) {
                     if (agregar) {
-                        model.addElement("+Línea " + lineas + " Ok");
+                        model.addElement("+Linea " + lineas + " Ok");
                     };
                 } else {
                     String e[] = archivoEquipo.linea().split("\\s+");
