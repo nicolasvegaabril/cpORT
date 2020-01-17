@@ -87,7 +87,7 @@ public class VerDocentes extends javax.swing.JFrame {
 
         jLabel4.setText("Mail:");
 
-        jLabel5.setText("AÃ±o de ingreso:");
+        jLabel5.setText("Año de ingreso:");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
